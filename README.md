@@ -48,6 +48,12 @@ I come from a background in corporate consulting, sales enablement, and digital 
 
 
 - Conclusion: symbolic feedback loops can emerge even under stable loss if training data has structural quirks.
+- ✅ Punctuation Monster Chronicles (Vol.1)
+
+Status: Archived with Honor
+Summary: The comma was too strong. The trainer… wiser now.
+
+
 
 ### 4. Custom Dataset: Netshop SQLite Whisper
 - Real product dataset ingestion
