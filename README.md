@@ -1,3 +1,5 @@
+Ai-trainer-not-human-but-very-personal
+
 # 🧠 AI Trainer Portfolio – Eugene Xiang
 
 > **"I don't train people to use AI. I train AI to understand people."**
@@ -10,7 +12,6 @@ Welcome to my digital lab, where prompts are recipes, LoRA is the seasoning, and
 This is the living portfolio of an AI Trainer—not for humans, but for models. I'm Eugene Xiang, a business trainer-turned-model-whisperer who fine-tunes language models to reflect tone, reduce nonsense, and yes, stop them from abusing quotation marks.
 
 I come from a background in corporate consulting, sales enablement, and digital transformation—but these days, you'll find me poking around token distributions, designing prompt experiments, and whispering sweet syntax into GPT's ears.
-
 
 ---
 
@@ -26,10 +27,27 @@ I come from a background in corporate consulting, sales enablement, and digital 
 - Dataset design & cleaning (including symbolic debugging)
 - Loss curve tracking & model personality shifting
 
-### 3. Punctuation Monster Chronicles
-- Case: Comma loops, quote spirals, parentheses addiction
-- Diagnosis process via token inspection
-- Fix methods & post-fine-tune comparison
+### 3. Punctuation Monster Chronicles (Vol.1)
+> *"I wasn't training a model. I was training it to stop hallucinating punctuation like a feral dog."*
+
+- Symptom: comma floods, quote spirals, bracket obsession, aka **符号GPT发癫综合症**
+- Loss curve stabilized around 0.06 after ~4k steps, with target set at 0.04
+- Debug method: `collections.Counter` on output samples to analyze token-level symbol distribution
+- Results visualized:
+  - ![Loss Curve 1]
+  - ![image](https://github.com/user-attachments/assets/248797ce-3a83-4537-9b77-c6c3f2535855)
+
+  - ![Loss Curve 2]
+  - ![image](https://github.com/user-attachments/assets/8f1c2741-e7a4-4ad7-84c0-3843904b90a8)
+
+  - ![Loss Curve 3]
+  - ![image](https://github.com/user-attachments/assets/4f5a8c73-e80f-4e9b-8c53-973b8c97f9ac)
+
+  - ![Loss Curve 4]
+  - ![image](https://github.com/user-attachments/assets/43ed18a5-8bc5-4891-b02d-039123f75662)
+
+
+- Conclusion: symbolic feedback loops can emerge even under stable loss if training data has structural quirks.
 
 ### 4. Custom Dataset: Netshop SQLite Whisper
 - Real product dataset ingestion
